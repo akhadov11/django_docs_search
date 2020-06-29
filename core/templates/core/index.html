@@ -1,0 +1,11 @@
+{% block title %}
+    Search
+{% endblock %}
+
+{% block content %}
+     <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Search" class="btn btn-info">
+    </form>
+{% endblock %}

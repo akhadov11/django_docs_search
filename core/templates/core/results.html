@@ -1,0 +1,12 @@
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+    {% for doc in  docs  %}
+        <p>{{ doc.identifier }} - {{ doc.series }} - {{ doc.doc_num }}</p>
+        <p>{{ doc.status }}</p>
+        <P>{{ doc.authority }}</P>
+        <p>{{ doc.type }}</P>
+    {% endfor %}
+{% endblock %}

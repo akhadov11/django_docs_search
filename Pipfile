@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+celery = "==4.2.1"
+redis = "*"
+eventlet = "==0.24.1"
+pypiwin32 = "==223"
+requests = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.7"
